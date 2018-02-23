@@ -1,0 +1,11 @@
+{
+  "name": "simple-format",
+  "version": "0.1.0",
+  "description": "Just a simple string formatter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Luis Salazar González",
+  "license": "MIT"
+}
