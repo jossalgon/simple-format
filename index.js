@@ -11,5 +11,6 @@ String.prototype.format = function() {
       formatted = formatted.replace(new RegExp('{{' + key + '}}', 'g'), replacement);
     }
   }
+  formatted.replace(new RegExp('{{.*}}', 'g'), '');
   return formatted;
 }
